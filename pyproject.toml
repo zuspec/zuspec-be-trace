@@ -1,0 +1,15 @@
+
+[project]
+name = "zuspec-be-trace"
+version = "0.0.1"
+
+dependencies = [
+    "zuspec-dataclasses"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
