@@ -1,9 +1,15 @@
-name: zuspec-be-trace
-version: 0.0.1
 
 package:
   name: zuspec-be-trace
-  version: 0.0.1
 
-dependencies:
-  default: []
+  setup-deps: []
+
+  dep-sets:
+  - name: default-dev
+    deps:
+    - name: zuspec-dataclasses
+      url: https://github.com/zuspec/zuspec-dataclasses.git
+    - name: pytest
+      src: pypi
+
+
