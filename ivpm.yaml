@@ -1,5 +1,9 @@
 name: zuspec-be-trace
 version: 0.0.1
 
+package:
+  name: zuspec-be-trace
+  version: 0.0.1
+
 dependencies:
   default: []
